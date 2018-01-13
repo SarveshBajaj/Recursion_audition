@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="main.js">
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <center><h2>RECURSION</h2></center>
+  <div class = "row">
+    <span class="col-sm-3"></span>
+  <div class="col-sm-2 dropdown">
+
+    <select id = "extension">
+      <option>.com</option>
+      <option>.in</option>
+      <option>.org</option>
+    </select>
+
+  </div>
+<span class = "col-sm-3"></span>
+  <div class="col-sm-2 dropdown">
+
+    <select id = "type">
+      <option selected="selected">numeric</option>
+      <option>alphanumeric</option>
+      <option id = "letter">letter</option>
+    </select>
+  </div>
+  <span class = "col-sm-3"></span>
+  </div>
+  <center>
+<div>
+  <select id="case">
+    <option>lowercase</option>
+    <option>uppercase</option>
+    <option>mixed</option>
+  </select>
+</div>
+</center>
+<div>
+  <button type="submit" class="btn btn-success">Generate URL</button>
+</div>
+<br>
+<div>
+  <p style="font-size:30px;">The generated URL is <b><span id="url"></span></b></p>
+</div>
+</body>
+</html>
